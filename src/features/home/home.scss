@@ -1,0 +1,25 @@
+.container-market {
+  .img-body {
+    text-align: center;
+    margin: 0 auto 25px;
+    max-width: 230px;
+    height: 180px;
+    .img-big {
+      max-width: 100%;
+      height: 180px;
+      margin-top: 15px;
+      transition: all ease 300ms;
+      border-radius: 8px 8px;
+      &:hover {
+        margin: 6px auto 0;
+      }
+    }
+  }
+  .ant-col-6 {
+    padding: 16px 30px;
+    border: thin solid transparent;
+  }
+  .ant-col-6:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
+  }
+}
